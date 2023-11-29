@@ -1,0 +1,56 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <script type="text/javascript">
+        var inIframe = function() {
+            try {
+                return window.self !== window.top;
+            } catch (e) {
+                return true;
+            }
+        }
+    </script>
+                                    <script type="text/javascript">
+                var historyBack = function () {
+                    window.history.back(window.history.length -1);
+                };
+                setTimeout(function() {
+                    
+                    
+                                            if(!inIframe()){
+                            window.location.href = "https://api.whatsapp.com/send?phone=5521970690938&&text=Ol%C3%A1%2C+Venho+do+Seu+Site+ap2rr.live+Gostaria+de+Testar";
+                        }else{
+                            window.top.postMessage({
+                                suiteshare: false,
+                                widget: true,
+                                anchor_redirect: "https://api.whatsapp.com/send?phone=5521970690938&&text=Ol%C3%A1%2C+Venho+do+Seu+Site+ap2rr.live+Gostaria+de+Testar"
+                            }, '*');
+                            historyBack();
+                        }
+                                        return false;
+                }, 500);
+
+                var ua = navigator.userAgent || navigator.vendor || window.opera;
+
+                function isFacebookApp() {
+                    return (ua.indexOf("FBAN") > -1) && (ua.indexOf("FBAV") > -1);
+                }
+
+                if (isFacebookApp()) {
+                    setTimeout(function() {
+                                                    window.parent.location.assign("https://api.whatsapp.com/send?phone=5521970690938&text=Ol%C3%A1%2C+Venho+do+Seu+Site+ap2rr.live+Gostaria+de+Testar");
+                                                return false;
+                    }, 500);
+                }
+            </script>
+            </head>
+<body>
+
+            <noscript>
+            Redirecting to <a href="https://api.whatsapp.com/send?phone=5521970690938&text=Olá, Venho do Seu Site iptv-e-p2p.dnetvpn.site Gostaria de Testar">https://api.whatsapp.com/send?phone=5521970690938&text=Olá, Venho do Seu Site ap2rr.live Gostaria de Testar</a>
+        </noscript>
+    
+    
+    
+</body>
+</html>
