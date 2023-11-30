@@ -95,6 +95,8 @@ body {
   color: #fff;
   border-radius: 5px;
   margin-right: 20px; /* Aumentando a margem entre os botões */
+  position: relative; /* Para criar a borda animada */
+  overflow: hidden; /* Para ocultar a parte da borda animada que ultrapassa o botão */
 }
 
 /* Estilos para o botão ASSINAR */
@@ -107,9 +109,31 @@ body {
   background-color: #27ae60; /* Cor de fundo para o botão TESTE GRÁTIS */
 }
 
-/* Estilos para o hover dos botões */
-.plano-button:hover {
-  background-color: #2980b9;
+/* Estilos para a animação da borda */
+.plano-button::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  border: 2px solid transparent; /* Define a largura e o tipo de borda */
+  border-radius: 5px; /* Igual ao raio de borda do botão */
+  z-index: -1; /* Coloca a borda atrás do botão */
+  animation: borderAnimation 3s infinite; /* Animação da borda */
+}
+
+/* Animação de mudança de cor da borda */
+@keyframes borderAnimation {
+  0% {
+    border-color: #ff6347; /* Cor inicial da borda */
+  }
+  50% {
+    border-color: #9b59b6; /* Cor intermediária da borda */
+  }
+  100% {
+    border-color: #ff6347; /* Cor final da borda */
+  }
 }
 
 .scroll-down {
