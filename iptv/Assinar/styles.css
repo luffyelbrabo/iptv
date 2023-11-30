@@ -29,8 +29,8 @@ body {
 
 .plano {
   text-align: center;
-  margin: 150px;
-  padding: 50px;
+  margin: 70px;
+  padding: 45px;
   border-radius: 10px;
   background-color: #ffa500; /* Cor laranja */
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
@@ -41,7 +41,7 @@ body {
 
 .scroll-down {
   /* Adicione altura e rolagem para as seções adicionais */
-  min-height: 100px; /* Altura mínima para iniciar a rolagem */
+  min-height: 20px; /* Altura mínima para iniciar a rolagem */
   /* overflow-y: auto; /* Adiciona rolagem vertical se houver mais conteúdo */
 }
 
