@@ -10,7 +10,7 @@ body {
 
 .container {
   display: flex;
-  justify-content: center;
+  flex-direction: column; /* Altera a direção para coluna */
   align-items: center;
 }
 
