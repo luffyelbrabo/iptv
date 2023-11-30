@@ -4,7 +4,7 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
-  height: 100vh;
+  height: 80vh;
   margin: 0;
 }
 
@@ -12,14 +12,14 @@ body {
   display: flex;
   flex-direction: column; /* Altera a direção para coluna */
   align-items: center;
-  min-height: 100vh; /* Altura mínima da tela */
+  min-height: 80vh; /* Altura mínima da tela */
   overflow-y: auto; /* Adiciona rolagem vertical quando necessário */
 }
 
 .plano {
   text-align: center;
-  margin: 20px;
-  padding: 20px;
+  margin: 100px;
+  padding: 50px;
   border-radius: 10px;
   background-color: #FF8C00;
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
