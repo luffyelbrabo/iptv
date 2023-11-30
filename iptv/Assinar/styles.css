@@ -12,7 +12,7 @@ body {
   display: flex;
   flex-direction: column; /* Altera a direção para coluna */
   align-items: center;
-  min-height: 300vh; /* Altura mínima da tela */  
+  min-height: 100vh; /* Altura mínima da tela */  
 }
 
 @keyframes borderAnimation {
