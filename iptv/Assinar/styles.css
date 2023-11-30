@@ -12,8 +12,7 @@ body {
   display: flex;
   flex-direction: column; /* Altera a direção para coluna */
   align-items: center;
-  min-height: 80vh; /* Altura mínima da tela */
-  overflow-y: auto; /* Adiciona rolagem vertical quando necessário */
+  min-height: 80vh; /* Altura mínima da tela */  
 }
 
 @keyframes borderAnimation {
