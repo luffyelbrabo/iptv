@@ -39,9 +39,10 @@ body {
   }
 }
 
+/* Estilos para os planos */
 .plano {
   text-align: center;
-  margin: 95px;
+  margin: 100px;
   padding: 45px;
   border-radius: 10px;
   background-color: #ffa500; /* Cor laranja */
@@ -49,6 +50,57 @@ body {
   position: relative;
   border: 2px solid #ffa500; /* Cor inicial da borda */
   animation: borderAnimation 1s infinite; /* Aplica a animação à borda */
+}
+
+/* Estilos para o conteúdo dentro do plano */
+.plano-content {
+  color: #fff;
+}
+
+/* Estilos para o título do plano */
+.plano-title {
+  font-size: 24px;
+  margin-bottom: 10px;
+}
+
+/* Estilos para a descrição do plano */
+.plano-description {
+  font-size: 16px;
+  margin-bottom: 15px;
+}
+
+/* Estilos para o preço do plano */
+.plano-price {
+  font-size: 18px;
+  margin-bottom: 15px;
+}
+
+/* Estilos para as características do plano */
+.plano-features {
+  list-style-type: none;
+  padding: 0;
+  margin-bottom: 15px;
+}
+
+/* Estilos para os itens das características */
+.plano-features li {
+  margin-bottom: 5px;
+}
+
+/* Estilos para os botões dos planos */
+.plano-button {
+  display: inline-block;
+  padding: 10px 20px;
+  text-decoration: none;
+  color: #fff;
+  background-color: #3498db;
+  border-radius: 5px;
+  margin-right: 10px;
+}
+
+/* Estilos para o hover dos botões */
+.plano-button:hover {
+  background-color: #2980b9;
 }
 
 .scroll-down {
