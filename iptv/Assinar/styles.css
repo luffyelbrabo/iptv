@@ -14,7 +14,7 @@ body {
     background: linear-gradient(to bottom, #FFFF00, #7B68EE); /* Cores intermediárias */
   }
   100% {
-    background: linear-gradient(to bottom, #FF00FF, #FFFF00); /* Cores finais */
+    background: linear-gradient(to bottom, #FF00FF, #0000FF); /* Cores finais */
   }
 }
 
