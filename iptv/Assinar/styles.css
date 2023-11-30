@@ -4,7 +4,7 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
-  height: 80vh;
+  height: 150vh;
   margin: 0;
 }
 
@@ -18,8 +18,8 @@ body {
 
 .plano {
   text-align: center;
-  margin: 100px;
-  padding: 50px;
+  margin: 50px;
+  padding: 150px;
   border-radius: 10px;
   background-color: #FF8C00;
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
