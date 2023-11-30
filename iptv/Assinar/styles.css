@@ -43,7 +43,7 @@ body {
 .plano {
   text-align: center;
   margin: 100px;
-  padding: 75px;
+  padding: 65px;
   border-radius: 10px;
   background-color: #ffa500; /* Cor laranja */
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
@@ -93,9 +93,18 @@ body {
   padding: 10px 20px;
   text-decoration: none;
   color: #fff;
-  background-color: #3498db;
   border-radius: 5px;
-  margin-right: 10px;
+  margin-right: 20px; /* Aumentando a margem entre os botões */
+}
+
+/* Estilos para o botão ASSINAR */
+.plano-button.assinar {
+  background-color: #3498db; /* Cor de fundo para o botão ASSINAR */
+}
+
+/* Estilos para o botão TESTE GRÁTIS */
+.plano-button.teste-gratis {
+  background-color: #27ae60; /* Cor de fundo para o botão TESTE GRÁTIS */
 }
 
 /* Estilos para o hover dos botões */
