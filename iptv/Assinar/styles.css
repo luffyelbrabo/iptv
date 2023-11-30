@@ -4,7 +4,7 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
-  height: 150vh;
+  height: 100vh;
   margin: 0;
 }
 
@@ -12,7 +12,7 @@ body {
   display: flex;
   flex-direction: column; /* Altera a direção para coluna */
   align-items: center;
-  min-height: 80vh; /* Altura mínima da tela */  
+  min-height: 100vh; /* Altura mínima da tela */  
 }
 
 @keyframes borderAnimation {
@@ -37,6 +37,12 @@ body {
   position: relative;
   border: 2px solid #ffa500; /* Cor inicial da borda */
   animation: borderAnimation 1s infinite; /* Aplica a animação à borda */
+}
+
+.scroll-down {
+  /* Adicione altura e rolagem para as seções adicionais */
+  min-height: 100px; /* Altura mínima para iniciar a rolagem */
+  overflow-y: auto; /* Adiciona rolagem vertical se houver mais conteúdo */
 }
 
 .circulo {
