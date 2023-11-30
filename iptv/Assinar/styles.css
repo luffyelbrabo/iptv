@@ -1,17 +1,17 @@
 body {
   font-family: Arial, sans-serif;
   margin: 0;
-  background: linear-gradient(to bottom, #ffa500, #3498db); /* Cores iniciais do gradiente */
-  animation: changeBackground 2s infinite; /* Animando o fundo */
+  background: linear-gradient(to bottom, #ffa500, #FFFF00); /* Cores iniciais do gradiente */
+  animation: changeBackground 5s infinite; /* Animando o fundo */
 }
 
 /* Animação de mudança de cor de fundo */
 @keyframes changeBackground {
   0% {
-    background: linear-gradient(to bottom, #00FFFF, #00FF7F); /* Cores iniciais */
+    background: linear-gradient(to bottom, #00FF00, #4B0082); /* Cores iniciais */
   }
   50% {
-    background: linear-gradient(to bottom, #D2691E, #7B68EE); /* Cores intermediárias */
+    background: linear-gradient(to bottom, #FFFF00, #7B68EE); /* Cores intermediárias */
   }
   100% {
     background: linear-gradient(to bottom, #FF00FF, #FFFF00); /* Cores finais */
