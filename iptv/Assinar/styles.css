@@ -14,14 +14,28 @@ body {
   align-items: center;
 }
 
+@keyframes borderAnimation {
+  0% {
+    border-color: #ffa500; /* Cor inicial da borda */
+  }
+  50% {
+    border-color: #3498db; /* Cor intermediária da borda */
+  }
+  100% {
+    border-color: #ffa500; /* Cor final da borda */
+  }
+}
+
 .plano {
   text-align: center;
   margin: 20px;
   padding: 20px;
   border-radius: 10px;
-  background-color: #fff;
+  background-color: #ffa500; /* Cor laranja */
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
   position: relative;
+  border: 2px solid #ffa500; /* Cor inicial da borda */
+  animation: borderAnimation 1s infinite; /* Aplica a animação à borda */
 }
 
 .circulo {
