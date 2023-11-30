@@ -12,7 +12,7 @@ body {
   display: flex;
   flex-direction: column; /* Altera a direção para coluna */
   align-items: center;
-  min-height: 20vh; /* Altura mínima da tela */  
+  min-height: 300vh; /* Altura mínima da tela */  
 }
 
 @keyframes borderAnimation {
@@ -42,7 +42,7 @@ body {
 .scroll-down {
   /* Adicione altura e rolagem para as seções adicionais */
   min-height: 100px; /* Altura mínima para iniciar a rolagem */
-  overflow-y: auto; /* Adiciona rolagem vertical se houver mais conteúdo */
+  /* overflow-y: auto; /* Adiciona rolagem vertical se houver mais conteúdo */
 }
 
 .circulo {
