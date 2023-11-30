@@ -4,7 +4,7 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
-  height: 50vh;
+  height: 20vh;
   margin: 0;
 }
 
@@ -12,7 +12,7 @@ body {
   display: flex;
   flex-direction: column; /* Altera a direção para coluna */
   align-items: center;
-  min-height: 100vh; /* Altura mínima da tela */  
+  min-height: 20vh; /* Altura mínima da tela */  
 }
 
 @keyframes borderAnimation {
@@ -66,13 +66,13 @@ body {
 
 .botao {
   display: inline-block;
-  padding: 10px 20px;
-  margin-top: 15px;
+  padding: 15px 25px;
+  margin-top: 20px;
   text-decoration: none;
   color: #fff;
   background-color: #3498db;
   border-radius: 5px;
-  transition: background-color 0.3s ease;
+  transition: background-color 0.1s ease;
 }
 
 .botao:hover {
